@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	background-color: #000;
+	color: #FFB844;
+	font-size: 1rem;
+}
+
+main {
+	text-align: center;
+}
+
+main figure {
+	margin-bottom: 1rem;
+}
+main figure img {
+	width: 100%;
+	height: auto;
+	
+}
+.desktop-banner {
+	display: none;
+}
+
+main section p{
+	font-size: 3rem;
+}
+.info-tags {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+.info-tags p + p {
+	margin-left: 2.8rem;
+}
+.info-tags p {
+	font-size: 1.1rem;
+}
+
+main span {
+	display: block;
+	margin: rem 0;
+}
+
+main h1 {
+	font-family: 'halloween';
+	font-size: 7rem;
+	font-weight: 400;
+	position: relative;
+	bottom: 20px;
+}
+
+main p {
+	/* font-weight: 900; */
+	font-family: 'roboto';
+	font-size: 2rem;
+}
+
+
+
+@media (min-width: 500px){
+	.mobile-banner {
+		display: none;
+	}
+	.desktop-banner {
+		display: block;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'roboto';
+	font-weight: 400;
+	font-style: normal;
+	src:url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'halloween';
+	font-weight: 400;
+	font-style: normal;
+	src: url(../assets/fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
